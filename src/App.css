@@ -610,6 +610,25 @@ docs { background: linear-gradient(135deg, #5b7cff 0%, #bfc9e6 100%); }
 }
 
 @media (max-width: 768px) {
+  .glara-header {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .glara-nav {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+  }
+  .glara-buy-btn {
+    margin-top: 12px;
+    width: 90vw;
+    max-width: 400px;
+    text-align: center;
+    display: block;
+  }
   .glara-hero {
     flex-direction: column;
     align-items: center;
@@ -621,31 +640,25 @@ docs { background: linear-gradient(135deg, #5b7cff 0%, #bfc9e6 100%); }
     padding: 0 10px;
   }
   .glara-hero-img {
-    margin-top: 24px;
+    margin: 24px auto 0 auto;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .glara-logo-img {
     width: 100%;
-    min-height: 180px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
   }
   .token-info-row {
     flex-direction: column;
     gap: 12px;
+    align-items: center;
   }
   .section-divider {
     display: none;
-  }
-  .glara-header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 0;
-  }
-  .glara-nav {
-    flex-direction: column;
-    width: 100%;
-    align-items: flex-start;
-    gap: 8px;
-  }
-  .glara-buy-btn {
-    margin-top: 12px;
-    width: 100%;
-    text-align: center;
   }
 }
