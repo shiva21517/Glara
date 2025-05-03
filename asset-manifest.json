@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Glara/static/css/main.21014959.css",
+    "main.js": "/Glara/static/js/main.0d86c541.js",
+    "static/js/453.1ad86366.chunk.js": "/Glara/static/js/453.1ad86366.chunk.js",
+    "static/media/icon-dp.png": "/Glara/static/media/icon-dp.cf0faa07a686e52f196c.png",
+    "index.html": "/Glara/index.html",
+    "main.21014959.css.map": "/Glara/static/css/main.21014959.css.map",
+    "main.0d86c541.js.map": "/Glara/static/js/main.0d86c541.js.map",
+    "453.1ad86366.chunk.js.map": "/Glara/static/js/453.1ad86366.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21014959.css",
+    "static/js/main.0d86c541.js"
+  ]
+}
