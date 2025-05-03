@@ -26,8 +26,7 @@ function App() {
           <div className="glara-hero-btns">
             <a href="#buy" className="glara-btn-primary">Get Started</a>
             <a href="#about" className="glara-btn-secondary">Learn More</a>
-            <a href="/icon-logo.svg" download="icon-logo.svg"><img src="/icon-logo.svg" alt="Icon Logo" width="32" height="32" id="logo" /></a>
-
+            
           </div>
           <div className="token-info-row">
             <div className="token-info-col">
