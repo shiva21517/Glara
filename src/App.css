@@ -608,3 +608,44 @@ docs { background: linear-gradient(135deg, #5b7cff 0%, #bfc9e6 100%); }
     gap: 24px;
   }
 }
+
+@media (max-width: 768px) {
+  .glara-hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .glara-hero-content {
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .glara-hero-img {
+    margin-top: 24px;
+    width: 100%;
+    min-height: 180px;
+  }
+  .token-info-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .section-divider {
+    display: none;
+  }
+  .glara-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+  .glara-nav {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .glara-buy-btn {
+    margin-top: 12px;
+    width: 100%;
+    text-align: center;
+  }
+}
