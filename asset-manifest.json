@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Glara/static/css/main.f59e8fe3.css",
+    "main.css": "/Glara/static/css/main.16a609b7.css",
     "main.js": "/Glara/static/js/main.60b64467.js",
     "static/js/453.1ad86366.chunk.js": "/Glara/static/js/453.1ad86366.chunk.js",
     "static/media/icon-dp.png": "/Glara/static/media/icon-dp.cf0faa07a686e52f196c.png",
     "index.html": "/Glara/index.html",
-    "main.f59e8fe3.css.map": "/Glara/static/css/main.f59e8fe3.css.map",
+    "main.16a609b7.css.map": "/Glara/static/css/main.16a609b7.css.map",
     "main.60b64467.js.map": "/Glara/static/js/main.60b64467.js.map",
     "453.1ad86366.chunk.js.map": "/Glara/static/js/453.1ad86366.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f59e8fe3.css",
+    "static/css/main.16a609b7.css",
     "static/js/main.60b64467.js"
   ]
 }
