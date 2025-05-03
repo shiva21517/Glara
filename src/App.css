@@ -623,11 +623,18 @@ docs { background: linear-gradient(135deg, #5b7cff 0%, #bfc9e6 100%); }
     gap: 8px;
   }
   .glara-buy-btn {
-    margin-top: 12px;
-    width: 90vw;
-    max-width: 400px;
-    text-align: center;
+    width: 95vw;
+    max-width: 420px;
+    margin: 16px auto 0 auto;
     display: block;
+    font-size: 1.1rem;
+    padding: 14px 0;
+    border-radius: 32px;
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
   }
   .glara-hero {
     flex-direction: column;
@@ -639,8 +646,23 @@ docs { background: linear-gradient(135deg, #5b7cff 0%, #bfc9e6 100%); }
     text-align: center;
     padding: 0 10px;
   }
+  .glara-hero-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    margin: 0 auto 24px auto;
+  }
+  .glara-btn-primary,
+  .glara-btn-secondary {
+    width: 140px;
+    text-align: center;
+    margin: 0;
+  }
   .glara-hero-img {
-    margin: 24px auto 0 auto;
+    margin: 32px auto 0 auto;
     width: 180px;
     height: 180px;
     display: flex;
