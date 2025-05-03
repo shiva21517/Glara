@@ -1,0 +1,613 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #0d1025;
+  color: #f5f6fa;
+  min-height: 100vh;
+}
+
+.glara-main-bg {
+  background: linear-gradient(180deg, #181f3a 0%, #0d1025 100%);
+  min-height: 100vh;
+}
+
+.glara-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 7vw 24px 7vw;
+  background: transparent;
+}
+
+.glara-logo-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.glara-logo-circle {
+  width: 32px;
+  height: 32px;
+  background: url('../public/icon-dp.png') no-repeat center center/cover, linear-gradient(135deg, #5b7cff 0%, #6be6ff 100%);
+  border-radius: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(91,124,255,0.18);
+}
+
+.glara-logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.glara-nav {
+  display: flex;
+  gap: 32px;
+}
+
+.glara-nav a {
+  color: #bfc9e6;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.05rem;
+  transition: color 0.2s;
+}
+
+.glara-nav a:hover {
+  color: #00e6a8;
+}
+
+.glara-buy-btn {
+  background: linear-gradient(90deg, #00e6a8 0%, #5b7cff 100%);
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,230,168,0.12);
+  transition: background 0.2s;
+}
+
+.glara-buy-btn:hover {
+  background: linear-gradient(90deg, #5b7cff 0%, #00e6a8 100%);
+}
+
+.glara-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 7vw 40px 7vw;
+  gap: 40px;
+}
+
+.glara-hero-content {
+  flex: 1 1 0;
+  max-width: 600px;
+}
+
+.glara-hero-content h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+.glara-gradient {
+  background: linear-gradient(90deg, #00e6a8 0%, #5b7cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gradient-heading {
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #00e6a8 0%, #5b7cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 6px;
+}
+.section-divider {
+  border-left: 1.5px solid #3a4266;
+  height: 48px;
+  margin: 0 32px;
+}
+.token-info-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0;
+}
+.token-info-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 160px;
+}
+.token-info-label {
+  color: #3a7cff;
+  font-size: 1.1rem;
+  margin-top: 2px;
+}
+
+.glara-hero-content p {
+  font-size: 1.18rem;
+  color: #bfc9e6;
+  margin-bottom: 32px;
+}
+
+.glara-hero-btns {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+.glara-hero-btns a{
+  text-decoration: none;
+  
+}
+#logo{
+  margin-top:8px;
+}
+.glara-btn-primary {
+  background: linear-gradient(90deg, #00e6a8 0%, #5b7cff 100%);
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,230,168,0.12);
+  transition: background 0.2s;
+}
+
+.glara-btn-primary:hover {
+  background: linear-gradient(90deg, #5b7cff 0%, #00e6a8 100%);
+}
+
+.glara-btn-secondary {
+  background: linear-gradient(90deg, #00e6a8 0%, #5b7cff 100%);
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,230,168,0.12);
+  transition: background 0.2s;
+}
+
+.glara-btn-secondary:hover {
+  background: linear-gradient(90deg, #5b7cff 0%, #00e6a8 100%);
+}
+
+
+.glara-hero-info {
+  display: flex;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.glara-hero-info div {
+  font-size: 1.1rem;
+  color: #bfc9e6;
+  text-align: center;
+}
+
+.glara-hero-info span {
+  display: block;
+  font-size: 0.95rem;
+  color: #5b7cff;
+}
+
+.glara-hero-img {
+  flex: 0 0 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glara-logo-img {
+  width: 350px;
+  height: 350px;
+  margin-right:100px;
+  background: url('../public/icon-dp.png') no-repeat center center/cover, linear-gradient(135deg, #5b7cff 0%, #6be6ff 100%);
+  border-radius: 50%;
+  box-shadow: 0 4px 32px rgba(91,124,255,0.18);
+}
+@keyframes floatUpDown {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0); }
+}
+.glara-logo-img {
+  animation: floatUpDown 2s ease-in-out infinite;
+}
+
+.glara-about {
+  padding: 60px 7vw 40px 7vw;
+  text-align: center;
+}
+
+.glara-about h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.glara-about-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.glara-card {
+  background: linear-gradient(90deg, #181f3a 0%, #23294a 100%);
+  border-radius: 18px;
+  padding: 32px 28px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  min-width: 260px;
+  max-width: 340px;
+  text-align: left;
+  transition: box-shadow 0.3s;
+}
+.glara-card:hover {
+  box-shadow: 0 16px 48px 0 rgba(44, 62, 80, 0.35), 0 3px 16px 0 #00e6a8;
+}
+
+
+.glara-card h3 {
+  color: #00e6a8;
+  margin-bottom: 18px;
+}
+
+.glara-card ul {
+  padding-left: 18px;
+  color: #bfc9e6;
+}
+
+.glara-features {
+  padding: 60px 7vw 40px 7vw;
+  text-align: center;
+}
+
+
+.glara-features-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 36px;
+  flex-wrap: wrap;
+}
+
+.glara-feature-card {
+  background: linear-gradient(90deg, #181f3a 0%, #23294a 100%);
+  color: #fff;
+  border-radius: 18px;
+  padding: 32px 24px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  min-width: 220px;
+  max-width: 260px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.glara-features-cards :hover{
+  background: linear-gradient(90deg, #00e6a8 0%, #5b7cff 100%);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35), 0 1.5px 8px 0 #00e6a8;
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.06);
+}
+.glara-features-cards :hover h4{
+  background: none;
+  color: #fff;
+  box-shadow: none;
+  transform: scale(1.06);
+
+}
+
+.glara-feature-card:hover {
+  background: linear-gradient(90deg, #00e6a8 0%, #5b7cff 100%);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.35), 0 1.5px 8px 0 #00e6a8;
+  color: #fff;
+}
+.glara-feature-card:hover p{
+  background: none;
+  color: #fff;
+  box-shadow: none;
+  transform: scale(1.06);
+}
+
+  
+
+
+
+
+.glara-feature-icon{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #5b7cff 0%, #00e6a8 100%);
+  margin-bottom: 18px;
+}
+
+.wallet { background: linear-gradient(135deg, #5b7cff 0%, #00e6a8 100%); }
+.reward { background: linear-gradient(135deg, #00e6a8 0%, #5b7cff 100%); }
+governance { background: linear-gradient(135deg, #6be6ff 0%, #5b7cff 100%); }
+staking { background: linear-gradient(135deg, #5b7cff 0%, #6be6ff 100%); }
+.liquidity { background: linear-gradient(135deg, #00e6a8 0%, #5b7cff 100%); }
+docs { background: linear-gradient(135deg, #5b7cff 0%, #bfc9e6 100%); }
+
+.glara-next-steps {
+  padding: 60px 7vw 40px 7vw;
+  text-align: center;
+}
+
+.glara-next-steps-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 36px;
+  flex-wrap: wrap;
+}
+
+.glara-next-step-card {
+  background: linear-gradient(90deg, #181f3a 0%, #23294a 100%);
+  border-radius: 18px;
+  padding: 32px 24px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  min-width: 220px;
+  max-width: 260px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.3s;
+}
+.glara-next-step-card:hover {
+  box-shadow: 0 16px 48px 0 rgba(44, 62, 80, 0.35), 0 3px 16px 0 #00e6a8;
+}
+
+.glara-tokenomics {
+  padding: 60px 7vw 40px 7vw;
+  text-align: center;
+}
+
+.glara-tokenomics-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 36px;
+  flex-wrap: wrap;
+}
+
+
+.glara-tokenomics-card {
+  background: linear-gradient(90deg, #181f3a 0%, #23294a 100%);
+  border-radius: 18px;
+  padding: 32px 24px;
+  min-width: 220px;
+  max-width: 320px;
+  text-align: left;
+  transition: box-shadow 0.3s;
+}
+.glara-tokenomics-card:hover {
+  box-shadow: 0 16px 48px 0 rgba(44, 62, 80, 0.35), 0 3px 16px 0 #00e6a8;
+}
+
+
+.glara-tokenomics-card h3 {
+  color: #00e6a8;
+  margin-bottom: 18px;
+}
+
+.glara-tokenomics-card ul {
+  padding-left: 18px;
+  color: #bfc9e6;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.blue { background: #5b7cff; }
+.purple { background: #a259ff; }
+.cyan { background: #00e6a8; }
+.lightblue { background: #6be6ff; }
+.pink { background: #ff6bcb; }
+.violet { background: #bfc9e6; }
+
+.glara-token-utility {
+  margin-top: 48px;
+}
+
+.glara-token-utility-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.glara-token-utility-card {
+  background: #181f3a;
+  border-radius: 18px;
+  padding: 28px 20px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  min-width: 180px;
+  max-width: 220px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.3s;
+}
+.glara-token-utility-card:hover {
+  box-shadow: 0 16px 48px 0 rgba(44, 62, 80, 0.35), 0 3px 16px 0 #00e6a8;
+}
+
+
+
+.glara-roadmap {
+  padding: 60px 7vw 40px 7vw;
+  text-align: center;
+}
+
+.glara-roadmap-cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 36px;
+  flex-wrap: wrap;
+}
+
+.glara-roadmap-card {
+  background: linear-gradient(90deg, #181f3a 0%, #23294a 100%);
+  border-radius: 18px;
+  padding: 32px 24px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  min-width: 220px;
+  max-width: 260px;
+  text-align: left;
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+.glara-roadmap-card:hover {
+  box-shadow: 0 16px 48px 0 rgba(44, 62, 80, 0.35), 0 3px 16px 0 #00e6a8;
+}
+
+.glara-roadmap-phase {
+  font-size: 1.1rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00e6a8 0%, #5b7cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+
+
+
+.glara-status {
+  margin-top: 18px;
+  font-size: 0.98rem;
+  font-weight: 600;
+  padding: 6px 18px;
+  border-radius: 16px;
+  display: inline-block;
+}
+.completed { background: #00e6a8; color: #fff; }
+.inprogress { background: #5b7cff; color: #fff; }
+.upcoming { background: #23294a; color: #bfc9e6; }
+
+.glara-cta {
+  padding: 60px 7vw 40px 7vw;
+  text-align: center;
+  background: linear-gradient(90deg, #181f3a 0%, #23294a 100%);
+}
+
+.glara-cta-btns {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.glara-footer {
+  background: #10142a;
+  padding: 48px 7vw 32px 7vw;
+  color: #bfc9e6;
+  border-top: 1.5px solid #181f3a;
+}
+
+.glara-footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.glara-footer-brand {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  max-width: 340px;
+}
+
+.glara-footer-brand b {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.glara-footer-brand p {
+  color: #bfc9e6;
+  margin-top: 8px;
+  font-size: 1.02rem;
+}
+
+.glara-footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.glara-footer-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 120px;
+}
+
+.glara-footer-links b {
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 1.08rem;
+}
+
+.glara-footer-links a {
+  color: #bfc9e6;
+  text-decoration: none;
+  font-size: 1.01rem;
+  transition: color 0.2s;
+}
+
+.glara-footer-links a:hover {
+  color: #00e6a8;
+}
+
+@media (max-width: 900px) {
+  .glara-header, .glara-hero, .glara-about, .glara-features, .glara-next-steps, .glara-tokenomics, .glara-roadmap, .glara-cta, .glara-footer {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .glara-footer-main {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .glara-footer-links {
+    gap: 32px;
+  }
+  .glara-about-cards, .glara-features-cards, .glara-next-steps-cards, .glara-tokenomics-cards, .glara-token-utility-cards, .glara-roadmap-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}
