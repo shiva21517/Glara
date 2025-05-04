@@ -78,6 +78,7 @@ body, html {
 
 .glara-buy-btn:hover {
   background: linear-gradient(90deg, #5b7cff 0%, #00e6a8 100%);
+  transform: scale(1.06);
 }
 
 .glara-hero {
@@ -169,6 +170,8 @@ body, html {
 
 .glara-btn-primary:hover {
   background: linear-gradient(90deg, #5b7cff 0%, #00e6a8 100%);
+  transform: scale(1.06);
+  
 }
 
 .glara-btn-secondary {
@@ -185,6 +188,7 @@ body, html {
 
 .glara-btn-secondary:hover {
   background: linear-gradient(90deg, #5b7cff 0%, #00e6a8 100%);
+  transform: scale(1.06);
 }
 
 
@@ -684,24 +688,42 @@ docs { background: linear-gradient(135deg, #5b7cff 0%, #bfc9e6 100%); }
   .section-divider {
     display: none;
   }
-  
-  .footer {
-    display: flex;
+
+  .glara-footer-main {
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    padding-bottom: 24px;
-    word-break: break-word;
+    gap: 24px;
+    width: 100%;
+    display: flex;
   }
-  .footer .footer-section {
+  .glara-footer-brand {
     width: 100%;
     text-align: center;
-    margin-bottom: 8px;
-  }
-  .footer .footer-links {
+    margin-bottom: 12px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
   }
-}
+  .glara-footer-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .glara-footer-links > div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .glara-footer-links a {
+    word-break: break-word;
+    white-space: normal;
+    width: 100%;
+    display: block;
+  }
+}  
