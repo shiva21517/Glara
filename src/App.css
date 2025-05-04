@@ -635,6 +635,7 @@ docs { background: linear-gradient(135deg, #5b7cff 0%, #bfc9e6 100%); }
     left: 0;
     right: 0;
     z-index: 1;
+    text-align: center;
   }
   .glara-hero {
     flex-direction: column;
@@ -682,5 +683,25 @@ docs { background: linear-gradient(135deg, #5b7cff 0%, #bfc9e6 100%); }
   }
   .section-divider {
     display: none;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-bottom: 24px;
+    word-break: break-word;
+  }
+  .footer .footer-section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .footer .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
   }
 }
